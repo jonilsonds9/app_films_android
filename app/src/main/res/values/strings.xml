@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Filmes</string>
+    <string name="txtTitle">txtTitle</string>
+    <string name="txtLaunch">txtLaunch</string>
+    <string name="txtGender">txtGender</string>
+    <string name="todo">TODO</string>
+    <string name="detail_film">Detalhes do Filme</string>
+    <string name="loading_text">Carregando...</string>
+    <string name="erro_loading_films">Erro ao carregar lista de filmes</string>
+</resources>
