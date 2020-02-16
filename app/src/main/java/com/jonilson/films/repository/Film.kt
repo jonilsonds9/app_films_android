@@ -1,10 +1,11 @@
-package com.jonilson.films.model
+package com.jonilson.films.repository
 
-import android.os.Parcelable
-import kotlinx.android.parcel.Parcelize
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
-@Parcelize
-data class FilmInfo (
+@Entity
+data class Film (
+    @PrimaryKey
     val id: String,
     val image: String,
     val title: String,
@@ -13,5 +14,4 @@ data class FilmInfo (
     val launch: String,
     val time: String,
     val synopsis: String
-): Parcelable
-
+)

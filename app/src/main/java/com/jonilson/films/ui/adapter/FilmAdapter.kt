@@ -5,7 +5,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.jonilson.films.R
 import com.jonilson.films.model.FilmInfo
@@ -45,6 +44,6 @@ class FilmAdapter(
         val imgCover: ImageView = parent.imgCover
         val txtTitle: TextView = parent.txtTitle
         val txtLaunch: TextView = parent.txtLaunch
-        val txtGender: TextView = parent.txtGender
+        val txtGender: TextView = parent.txtDirector
     }
 }
